@@ -1,0 +1,209 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.botton{
+    background-color: #D6000D;
+    width: 150px;
+    height: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+.menu--logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.menu--left{
+    color: #D6000D;
+    font-size: 22px;
+}
+.menu--left span{
+    color: #000;
+}
+.menu--rigth ul{
+    display: flex;
+    list-style: none;
+}
+.menu--rigth li a{
+    width: 50px;
+    height: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    margin-left: 5px;
+    
+}
+.menu--rigth .active a,
+.menu--rigth li a:hover{
+    background-color: #D6000D;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+.section--banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section--banner-img{
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.section--banner-text p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.section--banner-text h2{
+    margin-top: 0px;
+    color: #D6000D;
+    font-size: 50px;
+}
+.banner2{
+    padding-top: 100px;
+}
+.section--banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section--banner2-text{
+    padding-right: 300px;
+    padding-top: 105px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.section--banner2-text span{
+    color: #fff;
+    background-color: #D6000D;
+    border-radius: 50%;
+    font-size: 23px;
+    margin-right: 10px;
+}
+.section-text{
+    display: flex;
+    justify-content: center;
+    padding-right: 530px;
+}
+.section--input-botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+}
+#tell{
+    width: 230px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #ccc;
+    outline: 0;
+}
+.area--cliente{
+    display: flex;
+    justify-content: center;
+    text-align:start;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+.section-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area--photo{
+    background-image: url('../images/Homen.jpg');
+    background-size: 100px;
+    background-position: center;
+    width: 400px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.area--photo2{
+    background-image: url('../images/Mulher.jpg');
+    background-size: 100px;
+    background-position: center;
+    width: 400px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.area--text {
+    margin: 10px;
+    padding-left: 10px;
+}
+.area--cliente1{
+    background-color: #ccc;
+    width: 450px;
+    height: 200px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.area--cliente2{
+    background-color: #ccc;
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h2{
+    padding-bottom: 0;
+}
+h2 span{
+    font-size: 17px;
+}
+
+.footer--area{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    line-height: 30px;
+}
+.footer--codar,
+.footer--sobre,
+.footer--contato,
+.footer--socialmedia{
+    width: 300px;
+    height: 200px;
+    padding-left: 80px;
+}
+.footer--contato a{
+    text-decoration: none;
+    color: #fff;
+}
+.copyrigth{
+    background-color: #000;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 19px;
+    
+}
+.copyrigth span{
+    color: #D6000D;
+}
